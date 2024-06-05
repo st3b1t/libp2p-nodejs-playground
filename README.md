@@ -1,7 +1,7 @@
 
-#libp2p NodeJS Playground
+# libp2p NodeJS Playground
 
-install all dependecies
+install all dependencies
 
 ```bash
 $ npm install
