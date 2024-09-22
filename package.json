@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "DEBUG='libp2p:*' node websockets.js"
+    "dev": "DEBUG='libp2p:*' node websocket_lan.js"
   },
   "keywords": [],
   "author": "st3b1t",
@@ -14,6 +14,8 @@
     "@chainsafe/libp2p-noise": "^15.0.0",
     "@chainsafe/libp2p-yamux": "^6.0.2",
     "@libp2p/bootstrap": "^10.0.24",
+    "@libp2p/floodsub": "^9.0.20",
+    "@libp2p/identify": "^2.0.2",
     "@libp2p/kad-dht": "^12.0.17",
     "@libp2p/mdns": "^10.0.24",
     "@libp2p/mplex": "^10.0.24",
